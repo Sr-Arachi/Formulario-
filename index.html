@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+
+    <div>
+        <h1>DEVs Registration</h1>
+        <p>Complete your information</p>
+        <br>
+    </div>
+
+    <!--Form Creation-->
+
+    <form>
+        <fieldset>
+            <div>
+                <label for="">name</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div>
+                <label for="">surname</label>
+                <input type="text" name="surname" id="surname">
+            </div>
+        </fieldset>
+
+        <div>
+            <label for="">email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="">Which side of the application do you develop?</label>
+            <label for="">
+                <input type="radio" name="devweb" value="frontend" checked > Front-End
+            </label>
+
+            <label for="">
+                <input type="radio" name="devweb" value="backend"> Back-End
+            </label>
+
+            <label for="">
+                <input type="radio" name="devweb" value="fullstack"> Fullstack
+            </label>
+        </div>
+
+        <div>
+            <label for="">
+                <select id="seniority">
+                    <option selected disable value="">Select</option>
+                    <option value="">Junior</option>
+                    <option value="">Full</option>
+                    <option value="">Senior</option>
+                </select>
+            </label>
+        </div>
+        
+        <fieldset>
+            <div>
+                <label for="">Select the technologies you use</label>
+                <input type="checkbox" name="tec1" id="tec1" value="HTML">
+                <label for="tec1">HTML</label>
+                <input type="checkbox" name="tec2" id="tec2" value="CSS">
+                <label for="tec2">CSS</label>
+                <input type="checkbox" name="tec3" id="tec3" value="JavaScript">
+                <label for="tec3">JavaScript</label>
+                <input type="checkbox" name="tec4" id="tec4" value="SQL">
+                <label for="tec4">SQL</label>
+            </div>
+        </fieldset>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
