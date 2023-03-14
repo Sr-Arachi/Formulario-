@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#pageTitle{
+    font-family: sans-serif;
+    color: aqua;
+    margin-left: 7%;
+}
+
+#caption{
+    font-family: sans-serif;
+    color: aquamarine;
+    margin-left: 10%;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: blueviolet;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: brown;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5%;
+}
+
+.field{
+    margin-bottom: 1em;
+}
+
+.field label{
+    margin-bottom: 0.2em;
+    color: chartreuse;
+    display: block;
+}
+
+fieldset.group.field{
+    float: left;
+    margin-right: 1em;
+}
+
+.field input[type="text"], .field input[type="email"], .field select, .field textarea{
+    padding: 0.2em;
+    border: 1px solid;
+    color: blue;
+    box-shadow: 2px 2px 2px rgb(red, green, blue);
+    display: block;
+}
+
+.field select option{
+    padding-right: 1em;
+}
+
+.field input:focus, field:focus, textarea:focus{
+    background: yellowgreen;
+}
+
+.submit{
+   font-size: 1.2em;
+   background: violet; 
+   border: 0;
+   margin-bottom: 1em;
+   color: aliceblue;
+   padding: 0.2em 0.6em;
+   box-shadow: 2px 2px 2px rgb(red, green, blue);
+   text-shadow: 1px 1px 1px rgb(red, green, blue);
+   position: absolute;
+   top: 90%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50% -50%);
+}
+
+.submit:hover{
+    background: violet;
+    box-shadow: inset 2px 2px 2px rgb(red, green, blue);
+    text-shadow: none;
+}
