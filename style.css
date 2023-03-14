@@ -5,13 +5,13 @@
 
 #pageTitle{
     font-family: sans-serif;
-    color: aqua;
+    color: #008B8B;
     margin-left: 7%;
 }
 
 #caption{
     font-family: sans-serif;
-    color: aquamarine;
+    color: #20B2AA;
     margin-left: 10%;
 }
 
@@ -20,10 +20,10 @@ fieldset{
 }
 
 body{
-    background-color: blueviolet;
+    background-color: #F0FFFF;
     font-family: sans-serif;
     font-size: 1em;
-    color: brown;
+    color: #2F4F4F;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
@@ -39,7 +39,7 @@ input, select, textarea, button{
 
 .field label{
     margin-bottom: 0.2em;
-    color: chartreuse;
+    color: #2F4F4F;
     display: block;
 }
 
@@ -51,8 +51,8 @@ fieldset.group.field{
 .field input[type="text"], .field input[type="email"], .field select, .field textarea{
     padding: 0.2em;
     border: 1px solid;
-    color: blue;
-    box-shadow: 2px 2px 2px rgb(red, green, blue);
+    color: #2F4F4F;
+    box-shadow: 2px 2px 2px rgb(0,0,0,5);
     display: block;
 }
 
@@ -61,18 +61,18 @@ fieldset.group.field{
 }
 
 .field input:focus, field:focus, textarea:focus{
-    background: yellowgreen;
+    background: #F8F8FF;
 }
 
 .submit{
    font-size: 1.2em;
-   background: violet; 
+   background: #008B8B; 
    border: 0;
    margin-bottom: 1em;
    color: aliceblue;
    padding: 0.2em 0.6em;
-   box-shadow: 2px 2px 2px rgb(red, green, blue);
-   text-shadow: 1px 1px 1px rgb(red, green, blue);
+   box-shadow: 2px 2px 2px rgb(0,0,0,0,2);
+   text-shadow: 1px 1px 1px rgb(0,0,0,5);
    position: absolute;
    top: 90%;
    left: 50%;
@@ -81,7 +81,11 @@ fieldset.group.field{
 }
 
 .submit:hover{
-    background: violet;
-    box-shadow: inset 2px 2px 2px rgb(red, green, blue);
+    background: #008B8B;
+    box-shadow: inset 2px 2px 2px rgb(0,0,0,0,2);
     text-shadow: none;
+}
+
+#check{
+    display: inline-block;
 }
